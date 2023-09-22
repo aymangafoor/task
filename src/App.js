@@ -7,7 +7,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import "./App.css"
 import Home from "./pages/Home";
 import Inner from "./pages/Inner";
-import New from "./pages/new";
 
 const router = createBrowserRouter([
   {
@@ -17,10 +16,6 @@ const router = createBrowserRouter([
   {
     path: "/programs",
     element: Inner()
-  },
-  {
-    path: "/new",
-    element: New()
   }
 ])
 
