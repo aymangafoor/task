@@ -1,0 +1,17 @@
+.innerpage .banner {
+    aspect-ratio: 4;
+}
+
+.innerpage .secondary-title {
+    max-width: unset;
+}
+
+.innerpage .description {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 80%;
+}
