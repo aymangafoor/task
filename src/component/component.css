@@ -9,6 +9,8 @@
 }
 
 .banner .read-btn {
+    margin-top: -84px;
+    margin-left: -10px;
     color: white;
     text-decoration: none;
 }
@@ -19,6 +21,49 @@
 
 .banner-readmore .line-1 {
     width: 100%;
+    margin-left: -16px;
+    height: 5.5px;
+}
+.search-btn{
+    margin-left: 5%;
+}
+.accessbtn {
+    width: 47px;
+    height: 147px;
+    position: relative;
+}
+
+.accessbtn .Vector {
+    border-radius: 50px;
+    width: 47px;
+    height: 149px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: white
+}
+
+.accessbtn .img {
+    width: 24px;
+    height: 14px;
+    left: 11px;
+    top: 122px;
+    position: absolute;
+}
+
+.accessbtn .text {
+    left: 15.33px;
+    top: 112px;
+    text-transform: uppercase;
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    text-align: right;
+    color: black;
+    font-size: 13px;
+    font-family: 'Inter';
+    font-weight: 400;
+    word-wrap: break-word;
 }
 
 .banner .right-data {

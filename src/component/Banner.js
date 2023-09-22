@@ -18,7 +18,7 @@ const Banner = (props) => {
                     <div className="d-flex align-items-center">
                         <Link to="/" className="white-link-right mx-2">MEDIA</Link>
                         <Link to="/" className="white-link-right mx-2">CONTACT</Link>
-                        <div className="p-2 bg-white rounded-circle d-flex justify-content-center align-items-center">
+                        <div className="p-2 search-btn bg-white rounded-circle d-flex justify-content-center align-items-center">
                             <img src="/images/search.png" alt="search" />
                         </div>
                     </div>
@@ -31,15 +31,14 @@ const Banner = (props) => {
             </h3>
             {props.read ? <div className="banner-readmore">
                 <Link to="" className="read-btn d-flex align-items-center">READ MORE <img src="/images/red_down.png" className="mx-1" /></Link>
-                <div className="line-1 bg-white"/>
+                <div className="line-1 bg-white" />
             </div> : ""}
         </div>
         <div className="position-absolute right-data mx-4">
-            <div className="accessibility button bg-white w-fit">
-                <div className="button-content">
-                    <p className="text-uppercase mb-0">Accessibility</p>
-                    <img src="/images/eye.png" className="img-fluid" alt="eye" />
-                </div>
+            <div className="accessbtn">
+                <div className="Vector"></div>
+                <img className="img" src="/images/eye.png" />
+                <div className="text">Accessibility</div>
             </div>
             <div className="bg-danger rounded-circle w-fit my-2">
                 <img src="/images/message.png" className="m-2" alt="message" />

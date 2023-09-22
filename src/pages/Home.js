@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div>
             <Header />
-            <Banner title={"Your Future Starts Here"} background={"/images/homebanner.png"} read={true} type="home" />
+            <Banner title={"Your Future Starts Here  ___________________"} background={"/images/homebanner.png"} read={true} type="home" />
             <div className="rank-columns">
                 <div className="main-container">
                     <div className="row">
@@ -76,10 +76,10 @@ const Home = () => {
                 <div className="main-container mt-5">
                     <div className="d-flex">
                         <h4 className="banner-title text-dark">Latest News</h4>
-                        <button className="btn mx-3 btn-light border">View All</button>
+                        <button className="btn mx-3 btn-light border text-uppercase">View All</button>
                         <div className="d-flex justify-content-end right-buttons">
-                            <button className="btn news-btn mx-3">News</button>
-                            <button className="btn btn-light border mx-3">Events</button>
+                            <button className="btn news-btn mx-3 text-uppercase">News</button>
+                            <button className="btn btn-light border mx-3 text-uppercase">Events</button>
                         </div>
                     </div>
                     <div className="d-flex">
